@@ -14,7 +14,7 @@ class DatabaseSeeder extends Seeder
     {
          DB::table('users')->insert([
             'id' => '002',
-            'username' => 'admin@admin',
+            'username' => 'admin@admin.com',
              'password' => '13960292',
               'active' => '1',
                'id_role' => '1',
