@@ -15,7 +15,7 @@ class DatabaseSeeder extends Seeder
          DB::table('users')->insert([
             'id' => '002',
             'username' => 'admin@admin.com',
-             'password' => '13960292',
+             'password' => '$2a$05$bCUA90ykKZ2Ir8SLBe5Lgexvyc3yG6U8yqLCUXRd25LOHb8ybCzmS',
               'active' => '1',
                'id_role' => '1',
                 'remember_token' => 'rhtrhfhdf@',
